@@ -17,19 +17,19 @@ export default function App() {
                 <div className="container2">
                     <ul>
                         <li>
-                            <a href="#">À propos</a>
+
                         </li>
 
                         <li>
-                            <a href="#">PortFolio</a>
+
                         </li>
 
                         <li>
-                            <a href="#">Compétences</a>
+
                         </li>
 
                         <li>
-                            <a href="#">Me contacter</a>
+
                         </li>
                     </ul>
                 </div>
