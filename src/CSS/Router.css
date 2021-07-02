@@ -1,0 +1,56 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+}
+
+.navbar ul li
+{
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.navbar ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+.container1
+{
+    margin-left: 30px;
+}
+
+.container2
+{
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.main {
+    margin-top: 70px;
+    flex: 1 0 auto;
+}
+
+.test1
+{
+    background-color: #333b48;
+}
+
+.test3
+{
+    background-color: #282e3a;
+    color: #a1a2a4;
+    font-size: 0.9em;
+}
