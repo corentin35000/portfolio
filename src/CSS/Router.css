@@ -38,15 +38,59 @@
     margin-top: 15px;
 }
 
-.main {
+.main
+{
     margin-top: 70px;
     flex: 1 0 auto;
 }
 
-.test1
+.contain0
+{
+    background-color: #d3334d;
+    color: white;
+    font-size: 1.05em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contain_sous0
+{
+    margin-left: 30px;
+}
+
+.contain_sous1
+{
+    margin-right: 30px;
+}
+
+
+.contain1
 {
     background-color: #333b48;
+    color: white;
 }
+
+.contain1 li
+{
+    text-align: left;
+}
+
+.contain1 a
+{
+    color: white;
+    font-size: 0.9em;
+}
+
+.contain1 h5
+{
+    text-align: left;
+    font-size: 1.0em;
+}
+
 
 .test3
 {
