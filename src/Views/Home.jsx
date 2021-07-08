@@ -1,11 +1,12 @@
 import React from "react";
 import '../CSS/Router.css';
+import FormsEmail from '../Components/Home/FormsEmail';
 
 export default function Home() {
 
     return (
         <div className="main">
-            HOME
+            <FormsEmail />
 
             <div>
                 dsqdsds
