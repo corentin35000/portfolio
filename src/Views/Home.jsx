@@ -1,121 +1,100 @@
 import React from "react";
 import '../CSS/Router.css';
 import FormsEmail from '../Components/Home/FormsEmail';
+import logoNavbar from "../Images/logo_navbar.jpg";
+import '../CSS/Router.css';
 
 export default function Home() {
 
     return (
         <div className="main">
+            <div>
+                zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+                dsfdfsfsdffdssdffdssdfdff
+                dsdsfddsfdfdfd
+                dss
+                fds
+                dfsdfdfdfdsdfdsf
+            </div>
+            <div>
+                sdfdffdsdfdfdfdfsdfssdfdfdf
+                dsfdfsfsdffdssdffdssdfdff
+                dsdsfddsfdfdfd
+                dss
+                fds
+                dfsdfdfdfdsdfdsf
+            </div>
+            <div>
+                sdfdffdsdfdfdfdfsdfssdfdfdf
+                dsfdfsfsdffdssdffdssdfdff
+                dsdsfddsfdfdfd
+                dss
+                fds
+                dfsdfdfdfdsdfdsf
+            </div>
+            <div>
+                sdfdffdsdfdfdfdfsdfssdfdfdf
+                dsfdfsfsdffdssdffdssdfdff
+                dsdsfddsfdfdfd
+                dss
+                fds
+                dfsdfdfdfdsdfdsf
+            </div>
+            <div>
+                sdfdffdsdfdfdfdfsdfssdfdfdf
+                dsfdfsfsdffdssdffdssdfdff
+                dsdsfddsfdfdfd
+                dss
+                fds
+                dfsdfdfdfdsdfdsf
+            </div>
+            <div>
+                sdfdffdsdfdfdfdfsdfssdfdfdf
+                dsfdfsfsdffdssdffdssdfdff
+                dsdsfddsfdfdfd
+                dss
+                fds
+                dfsdfdfdfdsdfdsf
+            </div>
+            <div>
+                sdfdffdsdfdfdfdfsdfssdfdfdf
+                dsfdfsfsdffdssdffdssdfdff
+                dsdsfddsfdfdfd
+                dss
+                fds
+                dfsdfdfdfdsdfdsf
+            </div>
+            <div>
+                sdfdffdsdfdfdfdfsdfssdfdfdf
+                dsfdfsfsdffdssdffdssdfdff
+                dsdsfddsfdfdfd
+                dss
+                fds
+                dfsdfdfdfdsdfdsf
+            </div>
+            <div>
+                sdfdffdsdfdfdfdfsdfssdfdfdf
+                dsfdfsfsdffdssdffdssdfdff
+                dsdsfddsfdfdfd
+                dss
+                fds
+                dfsdfdfdfdsdfdsf
+            </div>
+
             <FormsEmail />
 
-            <div>
-                dsqdsds
+            <div className="contain0">
+                <div className="contain_sous0">
+                    Rejoignez-moi sur les réseaux sociaux !
+                </div>
+
+                <div className="contain_sous1">
+                    <img src={ logoNavbar } alt="My Logo" />
+                    <img src={ logoNavbar } alt="My Logo" />
+                    <img src={ logoNavbar } alt="My Logo" />
+                    <img src={ logoNavbar } alt="My Logo" />
+                </div>
             </div>
-            <div>
-                dsqdsds
-            </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div>
-            <div>
-                dsqdsds
-            </div>
-            <div>
-                dsqdsds
-            </div>
-            <div>
-                dsqdsds
-            </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div>
-
-
-
-
-
-
-            <div>
-                dsqdsds
-            </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div>
-            <div>
-                dsqdsds
-            </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsds
-        </div><div>
-            dsqdsdsDDDDDDDDD
-        </div><div>
-            BBBBBBBBBBBBBBBBBBBBBBB
-        </div>
-
-            <div>
-                BBBBBBBBBBBBBBBBBBBBBBB
-            </div><div>
-            BBBBBBBBBBBBBBBBBBBBBBB
-        </div><div>
-            BBBBBBBBBBBBBBBBBBBBBBB
-        </div><div>
-            ZZZZZZZZZZ
-        </div>
-
         </div>
     );
 

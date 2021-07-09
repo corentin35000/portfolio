@@ -1,10 +1,12 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import logoNavbar from '../../Images/logo_navbar.jpg';
 
 const FooterPage = () => {
+
     return (
         <MDBFooter color="stylish-color-dark" className="page-footer font-small pt-4 mt-4">
-            <MDBContainer fluid className="text-center text-md-left test1">
+            <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md="6">
                         <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
@@ -12,7 +14,7 @@ const FooterPage = () => {
                         </h5>
                         <p>
                             Développeur web à Rennes. <br />
-                            Création ou refonte de site internet, intégration, etc.
+                            Création ou refonte de site internet, intégration, etc. <br />
                             Développement de jeux vidéos.
                         </p>
                     </MDBCol>
@@ -58,11 +60,13 @@ const FooterPage = () => {
 
             <div className="footer-copyright text-center py-3 test3">
                 <MDBContainer fluid>
-                    © Copyright 2021, Corentin RCZ. Tous droits réservés.
+                    © Copyright 2021, Corentin RCZ.
+                    Tous droits réservés.
                 </MDBContainer>
             </div>
         </MDBFooter>
     );
+
 }
 
 export default FooterPage;

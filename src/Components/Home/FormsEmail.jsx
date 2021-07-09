@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdb-react-ui-kit'
 
 const FormsEmail = () => {
     return (
-        <MDBContainer>
+        <MDBContainer className="testt">
             <MDBRow>
                 <MDBCol md="6">
                     <form>

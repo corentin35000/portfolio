@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-content: center;
     background-color: black;
+    z-index: 1;
 }
 
 .navbar ul
@@ -40,7 +41,7 @@
 
 .main
 {
-    margin-top: 70px;
+    margin-top: 100px;
     flex: 1 0 auto;
 }
 
@@ -55,6 +56,8 @@
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: -24px;
 }
 
 .contain_sous0
@@ -89,7 +92,6 @@
     text-align: left;
     font-size: 1.0em;
 }
-
 
 .test3
 {
