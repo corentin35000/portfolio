@@ -5,10 +5,10 @@ import logoNavbar from '../../Images/logo_navbar.jpg';
 const FooterPage = () => {
 
     return (
-        <MDBFooter color="stylish-color-dark" className="page-footer font-small pt-4 mt-4">
+        <MDBFooter color="stylish-color-dark" className="page-footer font-small pt-4 mt-4 containGlobal">
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
-                    <MDBCol md="6">
+                    <MDBCol md="6 testtt">
                         <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
                             Corentin RCZ
                         </h5>
@@ -23,7 +23,7 @@ const FooterPage = () => {
                         <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
                             LIENS UTILES
                         </h5>
-                        <ul className="list-unstyled">
+                        <ul className="list-unstyled lol">
                             <li>
                                 <a href="#!">À propos</a>
                             </li>
@@ -43,15 +43,15 @@ const FooterPage = () => {
                         <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
                             ME CONTACTER
                         </h5>
-                        <ul className="list-unstyled">
+                        <ul className="list-unstyled lil ">
                             <li>
-                                <a href="#!">Rennes - Epitech</a>
+                                Rennes - Epitech
                             </li>
                             <li>
-                                <a href="#!">corentindevelopper@hotmail.com</a>
+                                corentindevelopper@hotmail.com
                             </li>
                             <li>
-                                <a href="#!">+33 6 71 83 34 58</a>
+                                +33 6 71 83 34 58
                             </li>
                         </ul>
                     </MDBCol>

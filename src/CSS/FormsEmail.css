@@ -1,0 +1,16 @@
+.containerGlobal
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerGlobal form
+{
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
