@@ -3,7 +3,7 @@ import '../../CSS/Competences.css';
 
 export default function Competences() {
     return (
-        <div className="containGlobal5" data-aos="fade-left">
+        <div id="competences" className="containGlobal5" data-aos="zoom-in">
             <div className="containsouss1">
                 <span className="titre1">MES COMPÉTENCES :</span> <br />
                 <span className="titre2">LANGAGE DE PROGRAMMATION | FRAMEWORKS | MOTEUR JEUX VIDEOS | LOGICIELS</span>
@@ -42,9 +42,6 @@ export default function Competences() {
                     - Spine2D (Animations Characters 2D) <br />
                     - GLC V2 (Création Launcher) <br />
                 </p>
-
-                <span className="titre3">MES PROJETS :</span> <br />
-
             </div>
         </div>
     );

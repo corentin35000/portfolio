@@ -7,7 +7,7 @@ export default function Cards() {
     return (
         <div data-aos="fade-down"
              data-aos-easing="linear"
-             data-aos-duration="1500" className="containerGlobal">
+             data-aos-duration="1500" className="containerGlobal" id="apropos">
             <MDBCard className="container11">
                 <MDBRow className='g-0 container22'>
                     <MDBCol md='4'>

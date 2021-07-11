@@ -8,14 +8,13 @@ import Competences from '../Components/Home/Competences';
 import '../CSS/Router.css';
 import '../CSS/Home.css';
 import CV from '../PDF/CV.pdf';
+import Projets from "../Components/Home/Projets";
 
 export default function Home() {
 
     return (
-        <div className="main">
+        <div id="Home" className="main">
             <Cards />
-
-            <ReseauxSociaux />
 
             <div className="contain2">
                 <div className="contain_sous01">
@@ -33,7 +32,9 @@ export default function Home() {
 
             <Competences />
 
-            <Carousel />
+            <Projets />
+
+            <ReseauxSociaux />
 
             <FormsEmail />
         </div>

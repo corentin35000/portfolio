@@ -30,7 +30,7 @@ const FormsEmail = () => {
     }
 
     return (
-        <MDBContainer className="containerGlobal3">
+        <MDBContainer data-aos="flip-left" className="containerGlobal3">
             <MDBRow id="mecontacter">
                 <div className="containerGlobal">
                     <form onSubmit={submitForms}>

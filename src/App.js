@@ -18,13 +18,13 @@ export default function App() {
                 <div className="container2">
                     <ul>
                         <li>
-                            <a href="#!">À propos</a>
+                            <a href="#apropos">À propos</a>
                         </li>
                         <li>
-                            <a href="#!">Portfolio</a>
+                            <a href="#portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#!">Compétences</a>
+                            <a href="#competences">Compétences</a>
                         </li>
                         <li>
                             <a href="#mecontacter">Me contacter</a>
