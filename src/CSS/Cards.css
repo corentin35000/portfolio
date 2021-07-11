@@ -1,0 +1,27 @@
+.containerGlobal
+{
+    margin: 120px 0 50px 0;
+}
+
+.container11
+{
+    max-width: 660px;
+}
+
+.container22
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px)
+{
+
+    .container11
+    {
+        max-width: 340px;
+    }
+
+
+}

@@ -9,10 +9,10 @@
     "@testing-library/user-event": "^12.1.10",
     "aos": "^2.3.4",
     "mdb-react-ui-kit": "^1.0.0-beta7",
-    "mdbreact": "^5.0.2",
+    "mdbreact": "^4.14.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^1.1.5",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -40,6 +40,8 @@
     ]
   },
   "devDependencies": {
+    "@material-ui/icons": "^4.11.2",
+    "clsx": "^1.1.1",
     "react-router-dom": "^5.2.0"
   }
 }

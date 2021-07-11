@@ -4,6 +4,7 @@ import Home from './Views/Home';
 import FooterPage from './Components/BaliseSemantique/FooterPage';
 import './CSS/Router.css';
 import logoNavbar from './Images/logo_navbar.jpg';
+import MenuMobile from './Components/Home/MenuMobile';
 
 export default function App() {
 
@@ -11,7 +12,7 @@ export default function App() {
         <BrowserRouter>
             <div className="navbar">
                 <div className="container1">
-                    <img src={ logoNavbar } alt="My Logo"/>
+                    <img src={ logoNavbar } width="50" height="62" alt="My Logo"/>
                 </div>
 
                 <div className="container2">
@@ -29,6 +30,10 @@ export default function App() {
                             <a href="#mecontacter">Me contacter</a>
                         </li>
                     </ul>
+                </div>
+
+                <div className="container3">
+                    <MenuMobile />
                 </div>
             </div>
 

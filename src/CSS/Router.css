@@ -12,7 +12,7 @@ html, body
     justify-content: space-between;
     align-content: center;
     background-color: black;
-    z-index: 1;
+    z-index: 999;
 }
 
 .navbar ul
@@ -46,7 +46,7 @@ html, body
 
 .main
 {
-    margin-top: 100px;
+    margin-top: 78px;
     flex: 1 0 auto;
 }
 
@@ -62,7 +62,6 @@ html, body
     align-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    margin-bottom: -24px;
 }
 
 .contain_sous0
@@ -124,4 +123,40 @@ html, body
 .containGlobal h5
 {
     font-size: 1.2em;
+}
+
+.contain2
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+}
+
+.contain_sous01
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.contain_sous2
+{
+
+}
+
+.contain_sous2 button
+{
+    height: 45px;
+    width: 55px;
+    background-color: #0082ca;
+    color: white;
+    border-radius: 5px;
+}
+
+.contain_sous2 button a
+{
+    color: white;
 }

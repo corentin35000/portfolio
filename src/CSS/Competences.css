@@ -1,0 +1,50 @@
+.containGlobal5
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.containsouss1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containsouss1 p
+{
+    line-height: 40px;
+    text-align: center;
+}
+
+.titre1
+{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.titre2
+{
+    font-size: 1.0em;
+    color: grey;
+    font-weight: bolder;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+
+.titre3
+{
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.blabla
+{
+    border-bottom: 2px solid red;
+    width: 100%;
+}
